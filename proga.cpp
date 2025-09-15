@@ -6,7 +6,7 @@ using namespace std;
 
 int main(){
     srand(time(0));
-    const char* filenames[] = {"file1.txt", "file2.txt", "file2.txt"};
+    const char* filenames[] = {"file1.txt", "file2.txt", "file3.txt"};
     const int countNumbers = 10;
     for (const char* filename : filenames){
         ofstream file(filename);
@@ -18,4 +18,4 @@ int main(){
         }
     }
     return 0;
-}
+}   
